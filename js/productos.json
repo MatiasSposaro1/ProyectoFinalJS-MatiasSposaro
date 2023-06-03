@@ -1,0 +1,54 @@
+[
+    {
+        "id": "bolsa-01",
+        "titulo": "Bolsa Callaway Blanco",
+        "imagen": "./img/Bolsa-Callaway-Blanco.jpg",
+        "categoria": {
+          "nombre": "Bolsa",
+          "id": "bolsas"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "bolsa-02",
+        "titulo": "Bolsa Callaway Negro",
+        "imagen": "./img/Bolsa-Callaway-Negro.jpg",
+        "categoria": {
+          "nombre": "Bolsa",
+          "id": "bolsas"
+        },
+        "precio": 1000
+    },
+   
+    {
+      "id":"Guantes-01",
+      "titulo":"Guantes Stuburt",
+      "imagen":"./img/Guantes-Stuburt.jpg",
+      "categoria": {
+        "nombre": "Guantes",
+        "id": "guantes"
+      },
+      "precio":2000
+    },
+  
+    {
+      "id":"Pelotas-01",
+      "titulo":"Pelotas Callaway SuperSoft",
+      "imagen":"./img/Pelotas1.jpg",
+      "categoria": {
+        "nombre": "Pelotas",
+        "id": "pelotas"
+      },
+      "precio":3300
+    },
+    {
+    "id":"Pelotas-02",
+    "titulo":"Pelotas Callaway Boca Juniors",
+    "imagen":"./img/PelotasBoca.jpg",
+    "categoria": {
+      "nombre": "Pelotas",
+      "id": "pelotas"
+    },
+    "precio":5500
+    }
+]

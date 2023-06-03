@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CarritoCompra</title>
+
+     <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <!-- Style css -->
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+
+  <div class="wrapper-carrito">
+    <aside>
+      <header>
+        <h1 class="logo">San Eliseo Shop</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a class="boton-volver" href="./index.html">
+              <i class="bi bi-arrow-left-circle">Seguir comprando</i>
+            </a>
+          </li>
+          <li>
+            <a class="boton-carrito" href="./carrito.html">
+              <i class="bi bi-cart4 ">Carrito</i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+  
+    <main>
+      <h2 class="titulo-principal"Carrito></h2>
+      <div class="contenedor-carrito">
+        <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacio.</p>
+         
+        <div id="carrito-productos" class="carrito-productos disabled">
+            <!--JS-->
+        </div>
+  
+        <div id="carrito-acciones" class="carrito-acciones disabled">
+            <div class="carrito-acciones-izquierda">
+              <button id="carrito-acciones-vaciar"class="carrito-acciones-vaciar">Vaciar carrito</button>
+            </div>
+            <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+        </div>
+
+        <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+     
+      </div>
+    </main>
+  </div>
+   
+     <!-- JavaScript-->
+     <script src="./js/carrito.js"></script>
+</body>
+</html>
